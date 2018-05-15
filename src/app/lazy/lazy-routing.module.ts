@@ -12,7 +12,7 @@ export const routes: Routes = [
     path: 'deep',
     // Loading by relative path didn't seem to work here
     // loadChildren: './deep/deep.module#DeepModule'
-    loadChildren: 'app/lazy/deep/deep.module#DeepModule'
+    loadChildren: 'src/app/lazy/deep/deep.module#DeepModule'
   }
 ];
 
